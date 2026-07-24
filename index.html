@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="VT COSMETICS Influencer Collaboration Guide — brand story, hero products, video beats, non-negotiables and compliant claims for US creators.">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="VT COSMETICS — Creator Collaboration Guide">
+<meta property="og:description" content="Everything you need to create content we'll love and your followers will believe.">
+<meta property="og:type" content="website">
+<title>VT COSMETICS — Creator Collaboration Guide</title>
+<style>
+  html{-webkit-text-size-adjust:100%;}
+  img{max-width:100%;height:auto;}
+  :root{
+    --paper:#F5F5F6; --card:#FFFFFF; --ink:#161719; --graphite:#4E525A;
+    --silver:#9AA0A7; --line:#E4E5E9; --line-2:#EDEEF1;
+    --band:#1B1D21; --band-ink:#F3F3F4; --band-ink-2:#A9AEB6;
+    --good:#2E6C58; --good-bg:#EAF1EE; --warn:#8C6317; --warn-bg:#F5EFE3;
+    --stop:#9E3A33; --stop-bg:#F6EAE8;
+    --accent:#20232A;
+    --font-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --font-serif:Georgia,"Times New Roman",serif;
+    --font-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+    --maxw:1080px; --read:70ch;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#111214; --card:#191B1E; --ink:#ECEDEF; --graphite:#AEB3BB;
+      --silver:#6D727A; --line:#2A2D31; --line-2:#232629;
+      --band:#0C0D0F; --band-ink:#F0F1F2; --band-ink-2:#8A9098;
+      --good:#7FC9B0; --good-bg:#16241F; --warn:#D6AC63; --warn-bg:#241E12;
+      --stop:#E08a82; --stop-bg:#271817; --accent:#ECEDEF;
+    }
+  }
+  :root[data-theme="light"]{
+    --paper:#F5F5F6; --card:#FFFFFF; --ink:#161719; --graphite:#4E525A;
+    --silver:#9AA0A7; --line:#E4E5E9; --line-2:#EDEEF1;
+    --band:#1B1D21; --band-ink:#F3F3F4; --band-ink-2:#A9AEB6;
+    --good:#2E6C58; --good-bg:#EAF1EE; --warn:#8C6317; --warn-bg:#F5EFE3;
+    --stop:#9E3A33; --stop-bg:#F6EAE8; --accent:#20232A;
+  }
+  :root[data-theme="dark"]{
+    --paper:#111214; --card:#191B1E; --ink:#ECEDEF; --graphite:#AEB3BB;
+    --silver:#6D727A; --line:#2A2D31; --line-2:#232629;
+    --band:#0C0D0F; --band-ink:#F0F1F2; --band-ink-2:#8A9098;
+    --good:#7FC9B0; --good-bg:#16241F; --warn:#D6AC63; --warn-bg:#241E12;
+    --stop:#E08A82; --stop-bg:#271817; --accent:#ECEDEF;
+  }
+
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--font-body);line-height:1.6;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+  p{margin:0 0 1em;max-width:var(--read);}
+  a{color:inherit;}
+  strong{font-weight:650;}
+
+  /* ---- Header band ---- */
+  .band{background:var(--band);color:var(--band-ink);}
+  .band-inner{max-width:var(--maxw);margin:0 auto;padding:26px 28px 40px;}
+  .band-top{display:flex;justify-content:space-between;align-items:baseline;
+    gap:16px;flex-wrap:wrap;padding-bottom:34px;
+    border-bottom:1px solid rgba(255,255,255,.13);}
+  .wordmark{font-weight:700;letter-spacing:.44em;font-size:12px;
+    color:var(--band-ink);text-transform:uppercase;}
+  .band-badge{font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;
+    color:var(--band-ink-2);text-transform:uppercase;}
+  .band-eyebrow{font-family:var(--font-mono);font-size:11.5px;letter-spacing:.22em;
+    text-transform:uppercase;color:var(--band-ink-2);margin:36px 0 14px;}
+  .band h1{font-size:clamp(34px,6vw,60px);line-height:1.02;font-weight:300;
+    letter-spacing:-.022em;margin:0;text-wrap:balance;max-width:16ch;}
+  .band h1 em{font-family:var(--font-serif);font-style:italic;font-weight:400;}
+  .band-sub{margin:20px 0 0;color:var(--band-ink-2);font-size:16px;
+    max-width:56ch;line-height:1.55;}
+  .band-meta{display:flex;gap:26px;flex-wrap:wrap;margin-top:30px;}
+  .band-meta div{border-top:1px solid rgba(255,255,255,.15);padding-top:9px;min-width:120px;}
+  .band-meta dt{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--band-ink-2);}
+  .band-meta dd{margin:2px 0 0;font-size:14.5px;color:var(--band-ink);}
+
+  /* ---- TOC ---- */
+  .toc{border-bottom:1px solid var(--line);background:var(--card);}
+  .toc-inner{max-width:var(--maxw);margin:0 auto;padding:14px 28px;
+    display:flex;gap:8px 22px;flex-wrap:wrap;align-items:center;}
+  .toc a{font-size:12.5px;color:var(--graphite);text-decoration:none;
+    letter-spacing:.01em;white-space:nowrap;padding:4px 0;border-bottom:1px solid transparent;}
+  .toc a:hover{color:var(--ink);border-bottom-color:var(--ink);}
+  .toc a b{font-family:var(--font-mono);color:var(--silver);font-weight:400;
+    font-size:11px;margin-right:6px;}
+
+  /* ---- Sections ---- */
+  main{padding:8px 0 40px;}
+  section{padding:52px 0;border-bottom:1px solid var(--line);}
+  .sec-head{display:grid;grid-template-columns:64px 1fr;gap:0 20px;
+    align-items:start;margin-bottom:26px;}
+  .sec-no{font-family:var(--font-mono);font-size:13px;color:var(--silver);
+    padding-top:8px;letter-spacing:.04em;}
+  .sec-head h2{font-size:clamp(23px,3.4vw,31px);font-weight:400;letter-spacing:-.015em;
+    margin:0;line-height:1.12;text-wrap:balance;}
+  .sec-head .kicker{font-family:var(--font-mono);font-size:11px;letter-spacing:.2em;
+    text-transform:uppercase;color:var(--graphite);margin:0 0 8px;}
+  .sec-body{padding-left:84px;}
+  @media(max-width:640px){
+    .sec-head{grid-template-columns:1fr;gap:6px;}
+    .sec-no{padding-top:0;}
+    .sec-body{padding-left:0;}
+  }
+  .lead{font-size:18px;color:var(--ink);max-width:64ch;}
+
+  /* ---- Product / pillar cards ---- */
+  .grid{display:grid;gap:16px;margin:22px 0 4px;}
+  .grid-3{grid-template-columns:repeat(3,1fr);}
+  @media(max-width:760px){.grid-3{grid-template-columns:1fr;}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:4px;
+    padding:22px 22px 24px;}
+  .card .tag{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--silver);}
+  .card h3{font-size:19px;font-weight:550;margin:8px 0 2px;letter-spacing:-.01em;}
+  .card .role{font-family:var(--font-serif);font-style:italic;color:var(--graphite);
+    font-size:15px;margin:0 0 12px;}
+  .card p{font-size:14px;color:var(--graphite);margin:0 0 12px;}
+  .card .say{border-top:1px solid var(--line-2);padding-top:11px;font-size:13px;}
+  .card .say span{display:block;color:var(--silver);font-family:var(--font-mono);
+    font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px;}
+
+  /* ---- Beats / must-haves ---- */
+  ol.beats{list-style:none;counter-reset:b;margin:20px 0 0;padding:0;
+    max-width:var(--read);}
+  ol.beats li{counter-increment:b;position:relative;padding:16px 0 16px 52px;
+    border-top:1px solid var(--line);}
+  ol.beats li:before{content:counter(b,decimal-leading-zero);position:absolute;
+    left:0;top:16px;font-family:var(--font-mono);font-size:12px;color:var(--silver);}
+  ol.beats b{font-weight:600;}
+  ol.beats .t{color:var(--graphite);font-size:14.5px;}
+  ol.beats .clock{font-family:var(--font-mono);font-size:11px;color:var(--silver);
+    letter-spacing:.05em;}
+
+  /* ---- Non-negotiables checklist ---- */
+  .checks{list-style:none;margin:20px 0 0;padding:0;display:grid;gap:12px;}
+  .checks li{display:grid;grid-template-columns:26px 1fr;gap:14px;
+    background:var(--card);border:1px solid var(--line);border-left:2px solid var(--ink);
+    border-radius:4px;padding:16px 18px;}
+  .checks .box{width:18px;height:18px;border:1.5px solid var(--ink);border-radius:3px;
+    margin-top:2px;}
+  .checks h4{margin:0 0 3px;font-size:15.5px;font-weight:600;}
+  .checks p{margin:0;font-size:13.5px;color:var(--graphite);max-width:none;}
+  .checks code{font-family:var(--font-mono);font-size:12.5px;background:var(--line-2);
+    padding:1px 6px;border-radius:3px;color:var(--ink);}
+  .star{color:var(--ink);border-left-color:var(--warn)!important;}
+  .star .pin{font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--warn);display:block;margin-top:6px;}
+
+  /* ---- Do / Don't ---- */
+  .dd{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px;}
+  @media(max-width:700px){.dd{grid-template-columns:1fr;}}
+  .dd-col{border-radius:4px;padding:20px 22px;border:1px solid var(--line);}
+  .dd-col.do{background:var(--good-bg);}
+  .dd-col.dont{background:var(--stop-bg);}
+  .dd-col h3{margin:0 0 14px;font-size:14px;letter-spacing:.03em;
+    display:flex;align-items:center;gap:9px;text-transform:uppercase;
+    font-family:var(--font-mono);}
+  .dd-col.do h3{color:var(--good);}
+  .dd-col.dont h3{color:var(--stop);}
+  .dd-col ul{margin:0;padding:0;list-style:none;display:grid;gap:11px;}
+  .dd-col li{font-size:14px;padding-left:22px;position:relative;color:var(--ink);line-height:1.5;}
+  .dd-col li:before{position:absolute;left:0;top:0;font-weight:700;}
+  .dd-col.do li:before{content:"+";color:var(--good);}
+  .dd-col.dont li:before{content:"\00d7";color:var(--stop);}
+
+  /* ---- Claims table ---- */
+  .tbl-scroll{overflow-x:auto;margin-top:20px;border:1px solid var(--line);border-radius:4px;}
+  table{border-collapse:collapse;width:100%;min-width:520px;background:var(--card);}
+  th,td{text-align:left;padding:13px 18px;font-size:13.5px;vertical-align:top;
+    border-bottom:1px solid var(--line);}
+  thead th{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--silver);font-weight:500;background:var(--line-2);}
+  tbody tr:last-child td{border-bottom:none;}
+  td.ok{color:var(--good);}td.no{color:var(--stop);}
+  td .lbl{font-family:var(--font-mono);font-size:10px;letter-spacing:.1em;
+    text-transform:uppercase;display:block;margin-bottom:2px;}
+
+  /* ---- Specs ---- */
+  .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:1px;background:var(--line);border:1px solid var(--line);border-radius:4px;
+    overflow:hidden;margin-top:20px;}
+  .specs div{background:var(--card);padding:16px 18px;}
+  .specs dt{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--silver);}
+  .specs dd{margin:6px 0 0;font-size:15px;font-variant-numeric:tabular-nums;}
+
+  /* ---- Flow ---- */
+  .flow{list-style:none;margin:22px 0 0;padding:0;counter-reset:f;
+    display:grid;gap:0;max-width:var(--read);}
+  .flow li{counter-increment:f;display:grid;grid-template-columns:34px 1fr;gap:16px;
+    padding:0 0 22px;position:relative;}
+  .flow li:before{content:counter(f);grid-row:1;font-family:var(--font-mono);
+    font-size:12px;width:28px;height:28px;border:1px solid var(--ink);border-radius:50%;
+    display:flex;align-items:center;justify-content:center;background:var(--card);z-index:1;}
+  .flow li:not(:last-child):after{content:"";position:absolute;left:14px;top:28px;
+    bottom:0;width:1px;background:var(--line);}
+  .flow b{font-weight:600;font-size:15px;}
+  .flow p{margin:3px 0 0;font-size:13.5px;color:var(--graphite);}
+
+  /* ---- Callout ---- */
+  .note{border-left:2px solid var(--silver);padding:4px 0 4px 20px;margin:22px 0;
+    color:var(--graphite);font-family:var(--font-serif);font-style:italic;font-size:16px;
+    max-width:60ch;}
+
+  /* ---- Footer ---- */
+  footer{background:var(--band);color:var(--band-ink);}
+  .foot-inner{max-width:var(--maxw);margin:0 auto;padding:40px 28px 48px;
+    display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap;}
+  footer h3{font-weight:300;font-size:24px;margin:0 0 6px;letter-spacing:-.01em;}
+  footer p{color:var(--band-ink-2);font-size:14px;margin:0;max-width:40ch;}
+  .foot-contact{font-family:var(--font-mono);font-size:12.5px;color:var(--band-ink);
+    line-height:2;}
+  .foot-contact span{color:var(--band-ink-2);}
+  .foot-legal{border-top:1px solid rgba(255,255,255,.13);
+    margin-top:6px;padding:16px 28px 30px;max-width:var(--maxw);margin-left:auto;margin-right:auto;}
+  .foot-legal p{color:var(--band-ink-2);font-size:11.5px;max-width:none;margin:0;
+    font-family:var(--font-mono);letter-spacing:.02em;}
+</style>
+</head>
+<body>
+
+<header class="band">
+  <div class="band-inner">
+    <div class="band-top">
+      <span class="wordmark">VT&nbsp;Cosmetics</span>
+      <span class="band-badge">Creator Guide · v1 · US Market</span>
+    </div>
+    <p class="band-eyebrow">Influencer Collaboration Guide</p>
+    <h1>Let's make something your audience actually <em>trusts.</em></h1>
+    <p class="band-sub">Everything you need to create content we'll love and your
+      followers will believe — the story, the specs, and the few things that are
+      non-negotiable. Read it once; keep it open while you film.</p>
+    <dl class="band-meta">
+      <div><dt>Platforms</dt><dd>TikTok Shop · Ulta · Amazon</dd></div>
+      <div><dt>Your voice</dt><dd>Yours — always</dd></div>
+      <div><dt>Approval</dt><dd>1 round, ~48h</dd></div>
+      <div><dt>Questions</dt><dd>Your VT contact</dd></div>
+    </dl>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sections">
+  <div class="toc-inner">
+    <a href="#about"><b>01</b>Who we are</a>
+    <a href="#brief"><b>02</b>This collab</a>
+    <a href="#products"><b>03</b>Hero products</a>
+    <a href="#beats"><b>04</b>Video beats</a>
+    <a href="#tone"><b>05</b>Tone &amp; look</a>
+    <a href="#must"><b>06</b>Non-negotiables</a>
+    <a href="#claims"><b>07</b>What you can say</a>
+    <a href="#specs"><b>08</b>Specs &amp; delivery</a>
+    <a href="#dodont"><b>09</b>Quick do &amp; don't</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="about">
+    <div class="sec-head">
+      <div class="sec-no">01</div>
+      <div><p class="kicker">Who we are</p>
+        <h2>K-beauty built on one idea: results you can feel.</h2></div>
+    </div>
+    <div class="sec-body">
+      <p class="lead">VT COSMETICS is a Korean skincare and makeup brand known for
+        turning clinical-grade actives into products people use every single day.
+        We're not about a ten-step ritual — we're about a few things that work,
+        used consistently.</p>
+      <p>Our creators aren't billboards. The partners who do best with us are the
+        ones who fold VT into a routine they'd genuinely keep. That's the whole
+        brief in one sentence: <strong>show us in your real life, and be honest
+        about it.</strong> The guidance that follows just helps you do that in a
+        way that stays accurate and converts.</p>
+      <p class="note">If a line in this guide ever gets in the way of sounding like
+        yourself, tell your VT contact. Authentic beats on-brand, every time.</p>
+    </div>
+  </section>
+
+  <section id="brief">
+    <div class="sec-head">
+      <div class="sec-no">02</div>
+      <div><p class="kicker">This collaboration</p>
+        <h2>What we're asking you to make.</h2></div>
+    </div>
+    <div class="sec-body">
+      <p>Your VT contact will confirm the exact deliverables, dates, and product
+        for your collab in writing. The fields below are the shape of every VT
+        partnership — treat anything specific to you as whatever's in your
+        signed agreement, not this page.</p>
+      <dl class="specs">
+        <div><dt>Deliverable</dt><dd>1× TikTok video</dd></div>
+        <div><dt>Length</dt><dd>21–45 sec</dd></div>
+        <div><dt>Draft due</dt><dd>Per agreement</dd></div>
+        <div><dt>Go-live</dt><dd>Per agreement</dd></div>
+        <div><dt>Usage</dt><dd>Whitelisting + Spark Ads</dd></div>
+        <div><dt>Exclusivity</dt><dd>No competing serum 7d</dd></div>
+      </dl>
+      <p style="margin-top:22px">We frequently boost creator content as
+        <strong>Spark Ads</strong> and run it through <strong>whitelisting</strong>
+        from your handle. Nothing runs without the usage terms in your agreement —
+        this is just so the ask isn't a surprise.</p>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="sec-head">
+      <div class="sec-no">03</div>
+      <div><p class="kicker">Hero products</p>
+        <h2>Three products, three clear jobs.</h2></div>
+    </div>
+    <div class="sec-body">
+      <p class="lead">Lead with the one in your agreement. Knowing the role each
+        plays keeps your script accurate — and stops you promising something the
+        product isn't meant to do.</p>
+      <div class="grid grid-3">
+        <div class="card">
+          <span class="tag">The hero</span>
+          <h3>Reedle Shot</h3>
+          <p class="role">Train your skin</p>
+          <p>Our signature serum, powered by plant-derived micro-spicules that help
+            your skin take in what comes next. The story is <strong>consistency</strong> —
+            it's a workout, not a one-time fix.</p>
+          <div class="say"><span>Say it like</span>
+            "Three weeks in and my skin just takes everything better."</div>
+        </div>
+        <div class="card">
+          <span class="tag">The recovery step</span>
+          <h3>Vegan PDRN</h3>
+          <p class="role">Repair &amp; bounce-back</p>
+          <p>A plant-based take on the PDRN trend — no animal-derived ingredients.
+            Frame it as the <strong>recovery</strong> step: comfort, bounce, and
+            a calmer-looking barrier after actives.</p>
+          <div class="say"><span>Say it like</span>
+            "The vegan PDRN is my recovery step — skin feels cushioned, not tight."</div>
+        </div>
+        <div class="card">
+          <span class="tag">The daily one</span>
+          <h3>Brush Hair Serum</h3>
+          <p class="role">Effortless, everyday</p>
+          <p>A brush-applicator serum that makes lengths look glossy without grease.
+            The story is <strong>ease</strong> — one swipe, out the door.</p>
+          <div class="say"><span>Say it like</span>
+            "The brush tip means zero mess — I do it in the mirror in five seconds."</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="beats">
+    <div class="sec-head">
+      <div class="sec-no">04</div>
+      <div><p class="kicker">Video beats</p>
+        <h2>The shape of a video that converts.</h2></div>
+    </div>
+    <div class="sec-body">
+      <p class="lead">Not a script — a skeleton. Keep it in your words, but hit
+        these beats and make sure the product is on screen and in the caption early.</p>
+      <ol class="beats">
+        <li><b>Hook</b> <span class="clock">0–3s</span><br>
+          <span class="t">Open on a real moment or a claim that stops the scroll —
+          skin, texture, a before. No slow logo intros.</span></li>
+        <li><b>The problem, briefly</b> <span class="clock">3–8s</span><br>
+          <span class="t">One line on what you were dealing with. Relatable, specific,
+          not a diagnosis.</span></li>
+        <li><b>Show the product</b> <span class="clock">8–20s</span><br>
+          <span class="t">Product in-hand and readable. Show texture and how you
+          actually apply it — the demo is what people trust.</span></li>
+        <li><b>Your honest take</b> <span class="clock">20–35s</span><br>
+          <span class="t">What changed, over what time. Use "helps / looks / feels"
+          language (see §07). Real beats hyperbolic.</span></li>
+        <li><b>Call to action</b> <span class="clock">35s–end</span><br>
+          <span class="t">Point to the product card, say the code out loud, and tell
+          them exactly what to tap.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="tone">
+    <div class="sec-head">
+      <div class="sec-no">05</div>
+      <div><p class="kicker">Tone &amp; look</p>
+        <h2>Warm, clean, and unmistakably you.</h2></div>
+    </div>
+    <div class="sec-body">
+      <div class="grid grid-3">
+        <div class="card"><span class="tag">Voice</span>
+          <h3>Like a friend</h3>
+          <p>Talk to one person. Honest, a little excited, never salesy. If it
+            sounds like an ad read, rewrite it.</p></div>
+        <div class="card"><span class="tag">Light</span>
+          <h3>Natural &amp; soft</h3>
+          <p>Daylight or a clean soft key. We want to see real skin and real
+            texture — avoid heavy filters that hide results.</p></div>
+        <div class="card"><span class="tag">Sound</span>
+          <h3>Trend-aware</h3>
+          <p>Use trending audio where it fits, but keep your spoken hook and the
+            code audible. Captions on.</p></div>
+      </div>
+      <p class="note">Product name legible, packaging clean and unobstructed, and
+        please — no competitor products in frame.</p>
+    </div>
+  </section>
+
+  <section id="must">
+    <div class="sec-head">
+      <div class="sec-no">06</div>
+      <div><p class="kicker">The non-negotiables</p>
+        <h2>Five things that must be in every post.</h2></div>
+    </div>
+    <div class="sec-body">
+      <p class="lead">Miss one of these and the post may not count toward the
+        deliverable. They protect you legally and make sure the collab is
+        measurable on our side.</p>
+      <ul class="checks">
+        <li class="star"><span class="box"></span>
+          <div><h4>Tag the product card / add the product link</h4>
+            <p>On TikTok Shop, attach the VT product to the video so viewers can buy
+              in-app. This is how the collab gets measured — video views and product-card
+              sales are counted together.</p>
+            <span class="pin">Most important — do not skip</span></div></li>
+        <li><span class="box"></span>
+          <div><h4>Disclose the partnership clearly</h4>
+            <p>Turn on the paid-partnership label <em>and</em> say it — <code>#ad</code>
+              or "paid partnership with VT." Visible, not buried in hashtag #37.
+              This is FTC-required.</p></div></li>
+        <li><span class="box"></span>
+          <div><h4>Say and show your discount code</h4>
+            <p>On screen <em>and</em> spoken aloud, e.g. <code>YOURNAME15</code>.
+              Your VT contact gives you the exact code.</p></div></li>
+        <li><span class="box"></span>
+          <div><h4>Tag the official handles</h4>
+            <p>Tag <code>@vtcosmetics_official</code> (confirm the exact handle for
+              your region with your contact) in the post and caption.</p></div></li>
+        <li><span class="box"></span>
+          <div><h4>Use the campaign hashtags</h4>
+            <p><code>#VTCosmetics</code> <code>#ReedleShot</code> plus any campaign
+              tag in your brief. Keep them readable, not spammed.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="claims">
+    <div class="sec-head">
+      <div class="sec-no">07</div>
+      <div><p class="kicker">What you can say</p>
+        <h2>Confident claims that stay compliant.</h2></div>
+    </div>
+    <div class="sec-body">
+      <p class="lead">Skincare is cosmetic, not medical. Talk about how skin
+        <em>looks</em> and <em>feels</em> — never about treating, curing, or
+        healing a condition. When in doubt, use the left column.</p>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th>Topic</th><th>Say this</th><th>Not this</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><span class="lbl">General</span>Overall benefit</td>
+              <td class="ok">"Helps my skin look smoother and more hydrated."</td>
+              <td class="no">"Cures / heals / fixes my skin."</td>
+            </tr>
+            <tr>
+              <td><span class="lbl">Reedle Shot</span>Spicule tech</td>
+              <td class="ok">"Plant-based micro-spicules that help absorption."</td>
+              <td class="no">"At-home microneedling / injections / medical procedure."</td>
+            </tr>
+            <tr>
+              <td><span class="lbl">Vegan PDRN</span>Ingredient</td>
+              <td class="ok">"A vegan, plant-derived take on the PDRN trend."</td>
+              <td class="no">"Salmon PDRN / a drug / wound-healing treatment."</td>
+            </tr>
+            <tr>
+              <td><span class="lbl">Anti-aging</span>Appearance</td>
+              <td class="ok">"The look of fine lines seems softened."</td>
+              <td class="no">"Erases wrinkles / a Botox alternative."</td>
+            </tr>
+            <tr>
+              <td><span class="lbl">Results</span>Your experience</td>
+              <td class="ok">"In my experience, after ~3 weeks…"</td>
+              <td class="no">"Clinically proven to… / works for everyone in X days."</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:20px">Speak from <strong>your own experience</strong>
+        ("for me," "in my routine"). Don't cite clinical or statistical claims
+        unless your VT contact gives them to you in writing.</p>
+    </div>
+  </section>
+
+  <section id="specs">
+    <div class="sec-head">
+      <div class="sec-no">08</div>
+      <div><p class="kicker">Specs &amp; delivery</p>
+        <h2>The technical bits, and how approval works.</h2></div>
+    </div>
+    <div class="sec-body">
+      <dl class="specs">
+        <div><dt>Aspect</dt><dd>9:16 vertical</dd></div>
+        <div><dt>Resolution</dt><dd>1080×1920+</dd></div>
+        <div><dt>Length</dt><dd>21–45 sec</dd></div>
+        <div><dt>Captions</dt><dd>Burned-in</dd></div>
+        <div><dt>Draft as</dt><dd>Unlisted / file link</dd></div>
+        <div><dt>Safe zones</dt><dd>Keep text off edges</dd></div>
+      </dl>
+      <ol class="flow">
+        <li><b>Send your draft first</b><p>Share the video before it goes live, by
+          the date in your agreement. Please don't post before approval.</p></li>
+        <li><b>We review once, fast</b><p>Expect one round of notes within ~48
+          hours — usually just claim wording or making sure the product card is
+          attached.</p></li>
+        <li><b>You post live</b><p>Publish on the agreed date with all five
+          non-negotiables in place, product card attached.</p></li>
+        <li><b>Send the live link</b><p>Drop the final URL to your VT contact so we
+          can confirm the deliverable and enable Spark Ads.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="dodont" style="border-bottom:none">
+    <div class="sec-head">
+      <div class="sec-no">09</div>
+      <div><p class="kicker">Keep it handy</p>
+        <h2>The whole guide, in two columns.</h2></div>
+    </div>
+    <div class="sec-body">
+      <div class="dd">
+        <div class="dd-col do">
+          <h3>Do</h3>
+          <ul>
+            <li>Use it in a routine you'd genuinely keep</li>
+            <li>Attach the product card and say the code out loud</li>
+            <li>Show real texture, real application, real skin</li>
+            <li>Disclose the partnership clearly and early</li>
+            <li>Speak from your own experience</li>
+            <li>Send the draft before you post</li>
+          </ul>
+        </div>
+        <div class="dd-col dont">
+          <h3>Don't</h3>
+          <ul>
+            <li>Make medical, curing, or "clinically proven" claims</li>
+            <li>Call Reedle Shot microneedling or injections</li>
+            <li>Imply Vegan PDRN is animal-derived or a drug</li>
+            <li>Show or name competitor products</li>
+            <li>Bury the disclosure in a wall of hashtags</li>
+            <li>Post before approval, or forget the product card</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <div>
+      <h3>Thank you for creating with VT.</h3>
+      <p>We picked you because your audience trusts you. This guide just protects
+        that trust — the creative is yours.</p>
+    </div>
+    <div class="foot-contact">
+      <span>Your VT contact</span><br>Named in your agreement<br>
+      <span>Assets &amp; codes</span><br>Provided per collab<br>
+      <span>Anything unclear?</span><br>Ask before you film
+    </div>
+  </div>
+  <div class="foot-legal">
+    <p>VT COSMETICS · Creator Collaboration Guide · US Market · v1. General guidance
+      only — the terms of your signed agreement always take precedence. Product,
+      handles, codes, and dates confirmed by your VT contact in writing.</p>
+  </div>
+</footer>
+
+</body>
+</html>
