@@ -50,10 +50,18 @@ Brush the serum through with the built-in brush tip. Cooling, no mess, straight 
 
 ---
 
+## ❗ Precautions for Collaboration
+
+- **NO UNBOXING** — do not show packaging, only the product itself.
+- Please make sure the video is uploaded within the given deadline.
+- These product guidelines are confidential — please don't share them externally.
+
+---
+
 ## 🚨 Required Hashtags
 
 - **Tag:** @vtcosmetics_global
-- **Hashtags:** #vtcosmetics #pdrn #skinbarrier #sensitiveskin #skincaretips
+- **Hashtags:** #vtcosmetics #pdrn #haircare #scalpcare
 
 ---
 
